@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto overflow-x-hidden overflow-y-hidden font-sans bg-white  max-w-7xl"
+    class="mx-auto overflow-x-hidden overflow-y-hidden font-sans bg-white max-w-7xl"
   >
     <full-page :options="options">
       <div class="space-y-2 section">
@@ -13,11 +13,13 @@
         </div>
 
         <div class="flex flex-col items-center space-y-3 text-center">
+
           <h1 class="block text-6xl font-bold tracking-widest md:text-8xl">
             {{ title }}
           </h1>
           <p
             class="max-w-xs px-1 text-lg font-light tracking-wide  md:max-w-md md:text-3xl"
+
           >
             {{ subtitle }}
           </p>
@@ -41,6 +43,7 @@
             >
               What we've Been up to
             </p>
+
             <div
               class="flex flex-col justify-center  md:flex-row md:space-x-7 md:space-y-0 space-y-7 md:justify-start"
             >
@@ -177,6 +180,7 @@ export default {
       this.$refs.horizontal.next()
     },
   },
+
 }
 </script>
 
