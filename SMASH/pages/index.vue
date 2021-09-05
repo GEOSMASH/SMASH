@@ -73,7 +73,7 @@
                 :button="$device.isMobile"
                 class="w-full h-full news-scroll__container"
               >
-                <article-card-2
+                <article-card
                   v-for="(news, index) in newsPosts"
                   :key="index"
                   :title="news.title"
@@ -126,13 +126,12 @@
 </template>
 
 <script>
-import ArticleCard2 from '@/components/ArticleCard2'
+import ArticleCard from '@/components/ArticleCard'
 import VueHorizontal from 'vue-horizontal'
 import Icon from '@/components/Icon'
-// import Footer from '@/components/Footer'
 export default {
   components: {
-    ArticleCard2,
+    ArticleCard,
     VueHorizontal,
     Icon,
   },
