@@ -1,21 +1,26 @@
 <template>
   <div
-    class="relative flex flex-col items-center justify-start flex-none w-64 overflow-visible"
-    :style="{ 'min-height': cardHeight }"
+    class="relative flex flex-col items-center justify-start flex-none w-64 overflow-hidden "
+    :style="{
+      'min-height': cardHeight,
+    }"
   >
-    <div ref="image" class="w-full h-48 overflow-hidden shadow-xl rounded-2xl">
+    <div
+      ref="image"
+      class="w-full h-auto overflow-hidden shadow-xl rounded-2xl"
+    >
       <img src="~/assets/img/cardSample.jpg" class="w-full h-full" />
     </div>
     <div
       ref="text"
-      class="absolute flex flex-col items-center justify-between w-10/12 overflow-hidden bg-white shadow-xl flow-hidden rounded-2xl top-36"
+      class="absolute flex flex-col items-center justify-between w-10/12 overflow-hidden bg-white shadow-xl  flow-hidden rounded-2xl top-32"
       style="min-height: 10rem"
     >
       <div
-        class="flex flex-col items-center justify-center flex-1 h-full text-center"
+        class="flex flex-col items-center justify-center flex-1 h-full text-center "
       >
         <p
-          class="w-full p-2 text-lg font-semibold leading-snug tracking-tight text-black"
+          class="w-full p-2 text-lg font-semibold leading-snug tracking-tight text-black "
         >
           {{ title }}
         </p>
