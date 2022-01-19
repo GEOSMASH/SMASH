@@ -3,7 +3,7 @@
     class="container w-full mx-auto mt-16 space-y-12 overflow-hidden max-w-7xl"
   >
   <div class="w-full py-2 space-y-2 text-center">
-      <h2 class="max-w-4xl text-5xl font-bold tracking-wide md:text-6xl">
+      <h2 class="max-w-4xl mx-auto text-5xl font-bold tracking-wide md:text-6xl">
         {{ title || null}}
       </h2>
       <p v-if="subtitle" class="text-2xl font-medium">{{ subtitle }}</p>
