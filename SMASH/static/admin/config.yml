@@ -126,6 +126,20 @@ collections:
           display_fields: ['name']
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'News content', name: 'body', widget: 'markdown' }
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'SMASH/content/projects'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - label: 'Project Icon',
+        name: 'icon',
+        widget: 'string',
+        hint: '[options](https://icones.netlify.app/collection/all)'
+      - { label: 'Project title', name: 'title', widget: 'string' }
+      - { label: 'Project abbreviation', name: 'abbreviation', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
   - name: 'people'
     label: 'People'
     folder: 'SMASH/content/people'
