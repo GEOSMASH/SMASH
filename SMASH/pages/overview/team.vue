@@ -1,8 +1,11 @@
 <template>
   <div>
-    <pageTitle :title="content.title || 'Our Team'">
-      <div
-        class="grid grid-cols-1 gap-6 p-10 mx-auto  md:w-full sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-items-center"
+    <div>
+    <basic-page-template
+      :title="content.title"
+    >
+    <div
+        class="grid grid-cols-1 gap-6 p-10 mx-auto md:w-full sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-items-center"
       >
         <article
           v-for="person in people"
@@ -49,18 +52,18 @@
           </div>
         </article>
       </div>
-    </pageTitle>
+    </basic-page-template>
+  </div>
   </div>
 </template>
 
 <script>
-import pageTitle from '@/components/pageTitle'
+import BasicPageTemplate from '@/components/basicPageTemplate.vue'
 import Icon from '@/components/Icon.vue'
-
 export default {
   name: 'Team',
   components: {
-    pageTitle,
+    BasicPageTemplate,
     Icon,
   },
   layout: 'header-footer',
