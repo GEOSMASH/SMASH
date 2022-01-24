@@ -1,6 +1,7 @@
 ---
 title: Projects
 icon: icon-park-outline:refraction
+abbreviation: ABRE
 ---
 
 Brief descriptions and individual pages coming soon!

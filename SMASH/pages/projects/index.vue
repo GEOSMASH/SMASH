@@ -9,15 +9,16 @@
         <li
           v-for="project in projects"
           :key="project.title"
-          class="w-full "
+          class="flex flex-col items-center justify-start w-full"
         >
-          <a :href="project.path" class="flex flex-col items-center justify-start w-full">
+        
             <horizontal-card
               class="w-full md:w-3/4"
               :icon="project.icon"
               :text="project.title"
+              :link="project.path"
             />
-          </a>
+          
         </li>
       </ul>
     </basic-page-template>
