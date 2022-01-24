@@ -33,14 +33,8 @@ export default {
     HorizontalCard
   },
   layout: 'header-footer',
-  // async fetch() {
-  //   const content = await this.$content('projects/index').fetch()
-  //   this.content = content
-  // },
   async asyncData({ $content }) {
     const projects = await $content('projects').fetch()
-    // const content = await $content('overview/news').fetch()
-    console.log(projects)
     return {
       projects,
     }
