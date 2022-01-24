@@ -1,6 +1,6 @@
 ---
 image: /static/uploads/index.jpg
-title: Dr. Oshan receives research support from the National Science Foundation
+title: The SMASH team will collaborate with researchers from Arizona State University
 authors:
   - Dr. Taylor Oshan
 date: 2021-10-01T19:00:20.458Z

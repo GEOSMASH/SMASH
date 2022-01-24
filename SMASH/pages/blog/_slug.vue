@@ -83,8 +83,8 @@
 </template>
 
 <script>
-import Pill from '@/components/Pill'
 import Icon from '@/components/Icon.vue'
+import Pill from '@/components/Pill'
 export default {
   components: {
     Pill,
@@ -101,7 +101,7 @@ export default {
     }
 
     try {
-      ;[prev, next] = await $content('news')
+      ;[prev, next] = await $content('blog')
         .only(['title', 'path'])
         .sortBy('date')
         .surround(params.slug)

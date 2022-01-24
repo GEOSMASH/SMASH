@@ -3,6 +3,7 @@ image: /static/uploads/index.jpg
 title: Dr. Oshan receives research support from the National Science Foundation
 authors:
   - Dr. Taylor Oshan
+  - Matthew Tralka
 date: 2021-10-01T19:00:20.458Z
 ---
 

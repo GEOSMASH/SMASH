@@ -1,10 +1,10 @@
 <template>
   <div>
     <basic-page-template
-      title="E[scale]ating Spatial Analysis"
+      :title="content.title"
     >
     <ul
-        class="px-3 pb-5 space-y-6 overflow-visible md:px-0"
+        class="pb-5 space-y-6 overflow-visible md:px-0"
       >
         <li
           v-for="project in posts"
@@ -12,18 +12,20 @@
           class="flex flex-col items-center justify-start w-full"
         >
             <horizontal-card
-              class="w-3/4"
+              class="md:w-3/4"
               :image="project.image"
+              :image-alt="project.imageAlt || ''"
               :link="project.path"
             >
                 <div class="flex flex-col items-center justify-center w-full h-full space-y-2">
                     <p class="w-full text-xs text-left text-gray-500 md:text-base">
                         {{ new Date(project.date).toLocaleDateString() }}
                     </p>
-                    <p class="text-base font-medium leading-tight text-center flex-grow-1 md:text-left lg:text-xl md:text-lg">
+                    <p class="text-base font-medium leading-tight text-left flex-grow-1 lg:text-xl md:text-lg">
                         {{project.title}}
                     </p>
-                    <div v-if="project.authors" class="w-full space-x-3">
+                    <!-- class="" -->
+                    <div v-if="project.authors" class="flex flex-col items-center justify-start space-y-3 md:space-y-0 md:space-x-3 md:w-full md:flex-row">
                         <Pill
                             v-for="author in project.authors"
                             :key="author"
@@ -53,8 +55,10 @@ export default {
   layout: 'header-footer',
   async asyncData({ $content }) {
     const posts = await $content('blog').fetch()
+    const content = await $content('overview/blog').fetch()
     return {
       posts,
+      content
     }
   },
 }

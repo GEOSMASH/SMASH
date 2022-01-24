@@ -13,8 +13,8 @@
               aria-hidden="true"
           />
           <nuxt-img
-            v-if="image"
-            :src="image"
+            v-if="imageLink"
+            :src="imageLink"
             :alt="imageAlt || `Picture for ${text}`"
             class="w-3/4 h-3/4 min-h-[300px] object-scale-down max-h-10 max-w-10"
             quality="50"
@@ -22,7 +22,7 @@
       </div>
       <div class="flex-shrink-0 w-1/2 h-full p-2">
           <slot>
-            <p class="text-base font-medium leading-tight text-center flex-grow-1 md:text-left lg:text-xl md:text-lg">
+            <p class="text-base font-medium leading-tight text-left flex-grow-1 lg:text-xl md:text-lg">
               {{text}}
             </p>
           </slot>
@@ -64,6 +64,14 @@ export default {
       required: false,
       default: '',
     },
-  }
+  },
+  computed: {
+    imageLink() {
+      if (!this.image) {
+        return
+      }
+      return '/uploads/' + this.image.replace('/static/uploads/', '')
+    },
+  },
 }
 </script>

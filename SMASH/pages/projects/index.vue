@@ -13,7 +13,7 @@
         >
           <a :href="project.path" class="flex flex-col items-center justify-start w-full">
             <horizontal-card
-              class="w-3/4"
+              class="w-full md:w-3/4"
               :icon="project.icon"
               :text="project.title"
             />

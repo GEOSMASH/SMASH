@@ -5,23 +5,23 @@
         <p
           class="text-lg font-medium tracking-tight text-left text-gray-500 uppercase md:text-2xl"
         >
-          What we've Been up to
+          Our Latest Thoughts
         </p>
 
         <div
           class="flex flex-col justify-center md:flex-row md:space-x-7 md:space-y-0 space-y-7 md:justify-start"
         >
           <h2 class="text-5xl font-bold tracking-wide text-left md:text-7xl">
-            News
+            Blog
           </h2>
           <nuxt-link
-            to="/news"
+            to="/blog"
             class="flex flex-row items-center self-start justify-around md:self-end group"
           >
             <p
               class="text-sm font-semibold leading-3 text-gray-500 cursor-pointer md:text-lg group-hover:underline group-hover:text-gray-800"
             >
-              All News
+              All Posts
             </p>
             <Icon
               icon="ic:outline-keyboard-arrow-right"
@@ -51,13 +51,13 @@
             />
             <div class="flex items-start justify-center">
               <nuxt-link
-                to="/news"
+                to="/blog"
                 class="flex flex-row items-center justify-center w-48 text-3xl tracking-tight text-black cursor-pointer mt-14 h-52 rounded-xl group"
               >
                 <p
                   class="text-lg font-semibold leading-3 text-gray-500 cursor-pointer group-hover:underline group-hover:text-gray-800"
                 >
-                  All News
+                  All Posts
                 </p>
                 <Icon
                   icon="ic:outline-keyboard-arrow-right"
@@ -74,7 +74,7 @@
         >
           <button
             class="p-4 md:p-0"
-            aria-label="Previous News Stories"
+            aria-label="Previous Blog Post"
             @click="prevNews"
           >
             <Icon
@@ -86,7 +86,7 @@
 
           <button
             class="p-4 md:p-0"
-            aria-label="Next News Stories"
+            aria-label="Next Blog Post"
             @click="nextNews"
           >
             <Icon
@@ -118,7 +118,7 @@ export default {
     }
   },
   async fetch() {
-    const news = await this.$content('news').limit(5).sortBy('date', 'desc').fetch()
+    const news = await this.$content('blog').limit(5).sortBy('date', 'desc').fetch()
     this.newsPosts = news
   },
   methods: {
