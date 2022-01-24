@@ -1,5 +1,6 @@
 ---
 title: Projects
+icon: icon-park-outline:refraction
 ---
 
 Brief descriptions and individual pages coming soon!

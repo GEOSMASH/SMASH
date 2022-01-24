@@ -1,7 +1,7 @@
 ---
-icon: sss
+icon: maki:city
 title: Spatially Weighted Analysis of Multiscale Processes
-abbreviation:
+abbreviation: ABRE
 ---
 
 Brief descriptions and individual pages coming soon!
