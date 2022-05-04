@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col justify-center space-y-2 section">
+  <section class="flex flex-col items-center justify-center space-y-2 section">
     <div class="flex items-center justify-center max-h-60">
       <nuxt-img
         class="h-full w-52 md:w-72"
@@ -15,18 +15,23 @@
         {{ title }}
       </h1>
       <p
-        class="max-w-xs px-1 text-lg font-light tracking-wide  md:max-w-md md:text-3xl"
+        class="max-w-xs px-1 text-lg font-light tracking-wide md:max-w-md md:text-3xl"
       >
         {{ subtitle }}
       </p>
     </div>
+    <scrollArrow class="absolute bottom-20 md:bottom-24" />
   </section>
 </template>
 
 <script>
+import scrollArrow from '@/components/Index/scrollArrow.vue'
+
 export default {
   name: 'IndexTitle',
-  components: {},
+  components: {
+    scrollArrow,
+  },
   data() {
     return {
       title: '',
