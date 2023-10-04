@@ -1,16 +1,18 @@
 name: Zheng Liu
-role: PhD Candidate; Geospatial Developer
+role: Postdoctoral Associate; Geospatial Developer
 priority: 2
-bio: Zheng Liu is a Ph.D. candidate in the Center for Geographical Information
-  Science, University of Maryland, College Park. His research interest lies in
-  urban analytics and micro-mobility modeling using big data and machine
-  learning techniques. He is working on multi-temporal mobility modeling of
-  micro-mobility as his dissertation topic. He is also interested in the
-  application of GIScience in the self-driving industry. Before joining UMD, he
-  obtained his Bachelor of Science in Geographical Information Science at Peking
-  University.
+bio: Zheng Liu is a Post-Doctoral Associate in the EASIER Data Initiative,
+  University of Maryland, College Park. His research interest lies in urban
+  analytics and micro-mobility modeling using big data and machine learning
+  techniques. He worked on spatial interaction modeling of micro-mobility as his
+  dissertation topic. He is also interested in the application of GIScience in
+  the self-driving industry and decentralized protocols. He received his Ph.D.
+  in Geographical Sciences at the Department of Geographical Sciences at the
+  University of Maryland, College Park in 2023 and obtained his BSc in
+  Geographical Information Science and Mathematics from Peking University in
+  2017.
 socialLinks:
   - icon: carbon:information-filled
-    name: Website
-    link: https://geog.umd.edu/gradprofile/liu/zheng
+    name: LinkedIn
+    link: https://www.linkedin.com/in/zheng-liu-189815119/
 image: /static/uploads/zheng.jpg
