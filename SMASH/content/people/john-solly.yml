@@ -2,14 +2,5 @@ name: John Solly
 role: Alumni (New Light Technologies)
 priority: 9
 bio: "\n\n"
-socialLinks:
-  - icon: mdi:github
-    name: Github
-    link: https://github.com/jsolly
-  - name: Website
-    icon: mdi:information
-    link: https://blogthedata.com
-  - name: Twitter
-    icon: mdi:twitter
-    link: https://twitter.com/_jsolly
+socialLinks: []
 image: /static/uploads/jsolly_original-cropped.png
