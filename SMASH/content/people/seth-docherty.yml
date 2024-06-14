@@ -1,5 +1,17 @@
 name: "Seth Docherty "
 role: "Geospatial Developer "
 priority: 6
-bio: "\n\n"
+bio: Seth Docherty is a geospatial data engineer specializing in visualization
+  and architecture. He earned his B.S. in Meteorology at Kean University and
+  cultivated an interest in geospatial data. As a developer, he developed
+  environmental organizations and built API integrations for Esri. Seth is
+  interested in applying multilayered architecture solutions to manage large
+  data sets for utility and elegance.
+socialLinks:
+  - name: Github
+    icon: mdi:github
+    link: https://github.com/SethDocherty
+  - name: Linkedin
+    icon: mdi:linkedin
+    link: https://www.linkedin.com/in/sethdocherty/
 image: /static/uploads/seth.jpeg
