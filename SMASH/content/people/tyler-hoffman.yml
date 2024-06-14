@@ -1,9 +1,6 @@
 name: Tyler Hoffman
 role: Alumni
 priority: 10
-bio: \-
-socialLinks:
-  - name: Website
-    icon: carbon:information-filled
-    link: https://www.tdhoffman.com/
+bio: "\n\n"
+socialLinks: []
 image: /static/uploads/unnamed.jpg
