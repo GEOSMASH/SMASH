@@ -2,8 +2,5 @@ name: Jack Rickey
 role: Alumni (Equinor)
 priority: 8
 bio: <b>
-socialLinks:
-  - name: Linkedin
-    icon: logos:linkedin-icon
-    link: https://www.linkedin.com/in/jack-rickey/
+socialLinks: []
 image: /static/uploads/img_0018.jpg
