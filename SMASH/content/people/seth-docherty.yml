@@ -12,6 +12,6 @@ socialLinks:
     icon: mdi:github
     link: https://github.com/SethDocherty
   - name: Linkedin
-    icon: mri:linkedin
+    icon: mdi:linkedin
     link: https://www.linkedin.com/in/sethdocherty/
 image: /static/uploads/seth.jpeg
