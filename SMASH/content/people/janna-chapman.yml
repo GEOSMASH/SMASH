@@ -1,9 +1,6 @@
 name: Janna Chapman
 role: Alumni (US Forest Service)
 priority: 7
-bio: \-
-socialLinks:
-  - name: Github
-    icon: mdi:github
-    link: https://github.com/jkchap16
+bio: "\n\n"
+socialLinks: []
 image: /static/uploads/janna_chapman.jpeg
