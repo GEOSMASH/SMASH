@@ -9,7 +9,7 @@ bio: Seth Docherty is a geospatial data engineer specializing in visualization
   data sets for utility and elegance.
 socialLinks:
   - name: Github
-    icon: mri:github
+    icon: mdi:github
     link: https://github.com/SethDocherty
   - name: Linkedin
     icon: mri:linkedin
