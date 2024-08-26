@@ -2,8 +2,5 @@ name: Dr. Zheng Liu
 role: Alumni (Google)
 priority: 6
 bio: " "
-socialLinks:
-  - icon: carbon:information-filled
-    name: Website
-    link: https://geog.umd.edu/gradprofile/liu/zheng
+socialLinks: []
 image: /static/uploads/zheng.jpg
