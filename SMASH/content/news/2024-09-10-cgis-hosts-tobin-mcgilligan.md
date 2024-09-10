@@ -2,7 +2,7 @@
 image: /static/uploads/tobinmcgilligan.png
 imageAlt: tobin
 title: CGIS hosts Tobin McGilligan
-date: 2024-09-10T22:56:40.447Z
+date: 2023-11-14T23:56:40.447Z
 ---
 The CGIS hosts Tobin McGilligan as part of GIS Day activities!
 
