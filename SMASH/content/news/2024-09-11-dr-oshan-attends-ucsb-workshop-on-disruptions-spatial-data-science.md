@@ -1,7 +1,7 @@
 ---
 image: /static/uploads/center_for_spatial_studies_logo_ucsb.jpg
 imageAlt: ucsb
-title: "Dr. Oshan attends UCSB workshop on disruptions spatial data science "
+title: "Dr. Oshan attends UCSB workshop on disruptions and spatial data science "
 date: 2023-12-16T00:50:53.820Z
 ---
 
