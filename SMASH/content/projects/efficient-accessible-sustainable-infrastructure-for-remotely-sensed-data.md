@@ -1,5 +1,5 @@
 ---
-icon: mdi:satellite-variant
+icon: mdi:web
 title: "The EASIER Data Initiative "
 abbreviation: EASIER
 ---
