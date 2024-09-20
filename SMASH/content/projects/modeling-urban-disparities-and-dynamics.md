@@ -1,6 +1,6 @@
 ---
 icon: maki:city
-title: Modeling Urban Disparities and Dynamics
+title: Modeling Urban Processes Across Space
 abbreviation: MUDD
 ---
 *Description coming soon*
