@@ -1,7 +1,7 @@
 ---
 icon: mdi:web
 title: "The EASIER Data Initiative "
-abbreviation: /
+abbreviation: .....
 ---
 
 ### Efficient, Accessible, & Sustainable Infrastructure for Extracting Remotely-sensed (EASIER) Data
