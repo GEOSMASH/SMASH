@@ -14,28 +14,27 @@ navMenuItems:
       - title: Blog
         link: /blog
         icon: mdi:fountain-pen-tip
-  - title: Projects
+  - title: Research
     rowItems:
-      - title: Spatially Weighted Analysis of Multiscale Processes (SWAMP)
+      - title: Multiscale Spatial Analytic Techniques
         icon: icon-park-outline:refraction
         link: /projects/spatially-weighted-analysis-of-multiscale-processes
-      - title: Modeling Urban Disparities and Dynamics (MUDD)
-        link: /projects/modeling-urban-disparities-and-dynamics
-        icon: maki:city
+      - title: Open Source Ecosystem for Spatial Data Science 
+        link: /projects/open-source-ecosystem-for-spatial-data-science
+        icon: fluent-mdl2:add-group
       - link: /projects/spatial-processes-inducing-networks-over-time
         icon: bx:bx-network-chart
-        title: Spatial Processes Inducing Networks over Time (SPINT)
-      - title: Applied Transit Analysis and Ridership Informatics (ATARI)
+        title: Spatial Interaction & Human Mobility
+      - title: Transit Ridership Modeling
         link: /projects/applied-transit-analysis-and-ridership-informatics
         icon: mdi:train
-      - title: Efficient, Accessible, & Sustainable Infrastructure for Extracting
-          Remotely-sensed (EASIER) Data
+      - title: The EASIER Data Initiative 
         link: /projects/efficient-accessible-sustainable-infrastructure-for-remotely-sensed-data
-        icon: mdi:satellite-variant
-    bottomItems:
-      - title: Synopsis of All Projects
-        link: /projects/
-        icon: mdi:clipboard-list-outline
+        icon: mdi:web
+    #bottomItems:
+    #  - title: Synopsis of All Projects
+     #   link: /projects/
+        #icon: mdi:clipboard-list-outline
   - title: Resources
     rowItems:
       - title: Software
