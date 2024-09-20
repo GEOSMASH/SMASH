@@ -1,14 +1,14 @@
 ---
 icon: mdi:satellite-variant
-title: Efficient, Accessible, & Sustainable Infrastructure for Extracting
-  Remotely-sensed (EASIER) Data
+title: "The EASIER Data Initiative "
 abbreviation: EASIER
 ---
 
+### Efficient, Accessible, & Sustainable Infrastructure for Extracting Remotely-sensed (EASIER) Data
 
 Remote sensing plays a crucial role in a wide range of fields such as Earth science, military intelligence, and humanitarian outreach. Given the data-driven nature of many remote sensing applications, access to such data defines an organization’s operational capabilities. Therefore, a lack of efficient, accessible, and sustainable data infrastructure and reliable distribution networks can limit the quantity and quality of potential downstream applications. Numerous satellite imaging missions, such as the joint NASA/USGS Landsat program and the ESA Sentinel missions, observe globally-open data policies. However, these open data access initiatives largely implement commercial storage methods such as Amazon Web Services (AWS) S3 or Google Cloud Storage. These traditional infrastructures store and monetize open-source data in closed-source ecosystems, introducing issues of data integrity, accessibility, and cost. Apart from these data monoliths, there is a lack of alternative infrastructural choices that remote sensing researchers can leverage to distribute sensor data (i.e., satellite images) for internal or external release in a sustainable manner. This project therefore focuses on exploring the capacity to onload, store, and extract large amounts of spatial data efficiently, accessibly, & sustainably using [Filecoin](https://filecoin.io/) and [IPFS](https://ipfs.io/).  
 
-This project is generously supported through collaboration with the [Filecoin Foundation for the Decentralized Web](https://ffdweb.org/) [Textile](https://textile.notion.site/Our-mission-is-to-accelerate-the-exchange-of-information-across-society-f49e389e12e14473a3475e755a8d9cd6).
+The [EASIER Data Initiative](https://easierdata.org) is generously supported through collaboration with the [Filecoin Foundation for the Decentralized Web](https://ffdweb.org/) [Textile](https://textile.notion.site/Our-mission-is-to-accelerate-the-exchange-of-information-across-society-f49e389e12e14473a3475e755a8d9cd6).
 <br>
 <br> 
 <br>
