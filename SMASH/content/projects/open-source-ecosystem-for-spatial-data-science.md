@@ -1,6 +1,6 @@
 ---
 icon: fluent-mdl2:add-group
 title: "Open Source Ecosystem for Spatial Data Science "
-abbreviation: " /"
+abbreviation: .....
 ---
  *Description coming soon!*
