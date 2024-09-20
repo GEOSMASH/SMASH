@@ -1,6 +1,6 @@
 ---
 icon: mdi:train
 title: Transit Ridership Modeling
-abbreviation: ATARI
+abbreviation: /
 ---
 *Description coming soon*
