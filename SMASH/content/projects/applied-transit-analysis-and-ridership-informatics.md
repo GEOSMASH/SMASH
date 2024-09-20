@@ -1,6 +1,6 @@
 ---
 icon: mdi:train
 title: Transit Ridership Modeling
-abbreviation: /
+abbreviation: .....
 ---
 *Description coming soon*
