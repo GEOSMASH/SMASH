@@ -16,7 +16,7 @@ navMenuItems:
    #     icon: mdi:fountain-pen-tip
   - title: Research
     rowItems:
-      - title: Multiscale Spatial Analytic Techniques
+      - title: Multiscale Spatial Analytical Techniques
         icon: icon-park-outline:refraction
         link: /projects/spatially-weighted-analysis-of-multiscale-processes
       - title: Open Source Ecosystem for Spatial Data Science 
