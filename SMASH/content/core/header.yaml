@@ -31,10 +31,10 @@ navMenuItems:
       - title: The EASIER Data Initiative 
         link: /projects/efficient-accessible-sustainable-infrastructure-for-remotely-sensed-data
         icon: mdi:web
-    bottomItems:
-      - title: Synopsis of All Projects
-        link: /projects/
-        icon: mdi:clipboard-list-outline
+    bottomItems: []
+     # - title: Synopsis of All Projects
+      #  link: /projects/
+      #  icon: mdi:clipboard-list-outline
   - title: Resources
     rowItems:
       - title: Software
