@@ -8,7 +8,7 @@
     </div>
     <index-text class="section" />
     <index-news class="section" />
-   # <index-blog class="section" />
+
     <Footer class="mt-32" />
   </div>
 </template>
