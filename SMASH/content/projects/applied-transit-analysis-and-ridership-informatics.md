@@ -7,4 +7,8 @@ This project is in collaboration with the National Center for Smart Growth and f
 
 Supported by the Washington Metropolitan Area Transit Authority (WMATA)
 
-![](/static/wmata_metro_logo.svg.png)
+<a href="https://filecoin.io/">
+<img src="https://raw.githubusercontent.com/GEOSMASH/SMASH/main/SMASH/static/uploads/wmata_metro_logo.svg.png" alt="filecoin" width="100" height="100">
+</a>
+</div>
+
