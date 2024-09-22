@@ -7,4 +7,4 @@ This project is in collaboration with the National Center for Smart Growth and f
 
 Supported by the Washington Metropolitan Area Transit Authority (WMATA)
 
-![](/static/uploads/wmata_metro_logo.svg.png)
+![](/static/wmata_metro_logo.svg.png)
