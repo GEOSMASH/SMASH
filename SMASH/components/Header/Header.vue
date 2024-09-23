@@ -104,6 +104,7 @@
             <nav class="grid gap-y-8" role="navigation">
               <a
                 v-for="navMenuRowItem in mobileNavMenuItems.rowItems.filter(
+                  (item) => item.link.split('/')[1] != 'projects'
                 )"
                 :key="navMenuRowItem.title"
                 :href="navMenuRowItem.link"
