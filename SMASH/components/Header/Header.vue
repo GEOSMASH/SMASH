@@ -103,9 +103,7 @@
           <div class="mt-6 ml-1">
             <nav class="grid gap-y-8" role="navigation">
               <a
-                v-for="navMenuRowItem in mobileNavMenuItems.rowItems
-                
-                .filter(
+                v-for="navMenuRowItem in mobileNavMenuItems.rowItems.filter(
                 )"
                 :key="navMenuRowItem.title"
                 :href="navMenuRowItem.link"
