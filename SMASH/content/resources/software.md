@@ -24,6 +24,6 @@ The sparse generalized linear models (**spglm**) package provides an API for gen
 
 ## SIDA Dashboard
 
-The spatial interaction decision analytics (SIDA) dasboard is prototype of a web-based visualization tool built by our own Matthew Tralka and with assistance from Tyler Hoffman. As a proof-of-concept, it was built entirely using a [reproducible environment](https://github.com/GEOSMASH/SIDA) that can be [deployed to the web](https://www.sida-board.app/) or used locally.
+The spatial interaction decision analytics (SIDA) dasboard is prototype of a web-based visualization tool built by our own Matthew Tralka and with assistance from Tyler Hoffman. As a proof-of-concept, it was built entirely using a [reproducible environment](https://github.com/GEOSMASH/SIDA) that can be deployed to the web or used locally.
 
-[![SIDA](https://user-images.githubusercontent.com/8117709/139471983-ff227c50-4aed-44d6-92f5-387700132d08.png)](https://www.sida-board.app/)
+![](https://user-images.githubusercontent.com/8117709/139471983-ff227c50-4aed-44d6-92f5-387700132d08.png)
