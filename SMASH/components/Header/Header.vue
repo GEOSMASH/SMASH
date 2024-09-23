@@ -103,9 +103,11 @@
           <div class="mt-6 ml-1">
             <nav class="grid gap-y-8" role="navigation">
               <a
-                v-for="navMenuRowItem in mobileNavMenuItems.rowItems.filter(
-                  (item) => item.link.split('/')[1] != 'projects'
-                )"
+                v-for="navMenuRowItem in mobileNavMenuItems.rowItems
+                
+                #.filter(
+                 # (item) => item.link.split('/')[1] != 'projects'
+               # )"
                 :key="navMenuRowItem.title"
                 :href="navMenuRowItem.link"
                 class="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
