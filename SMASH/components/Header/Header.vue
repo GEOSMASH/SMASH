@@ -105,9 +105,8 @@
               <a
                 v-for="navMenuRowItem in mobileNavMenuItems.rowItems
                 
-                #.filter(
-                 # (item) => item.link.split('/')[1] != 'projects'
-               # )"
+                .filter(
+                )"
                 :key="navMenuRowItem.title"
                 :href="navMenuRowItem.link"
                 class="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50"
