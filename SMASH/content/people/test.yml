@@ -1,0 +1,5 @@
+name: test
+role: test
+priority: 5
+bio: test
+image: /static/uploads/SMASHLogo.svg
